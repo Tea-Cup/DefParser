@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Defs>
+  <ProjectileDef>
+    <id>pj_red_laser</id>
+    <name>Red Laser</name>
+    <description>Concentrated beam of energy used in offensive warfare.</description>
+    <texture>pj/red_laser</texture>
+    <damageType>Energy</damageType>
+    <ignoreTerrain>false</ignoreTerrain>
+  </ProjectileDef>
+  <ProjectileDef>
+    <id>pj_bullet</id>
+    <name>762 bullet</name>
+    <description>Standardized bullet used by medium caliber rifles.</description>
+    <texture>pj/pew</texture>
+    <damageType>Bullet</damageType>
+    <ignoreTerrain>false</ignoreTerrain>
+  </ProjectileDef>
+  <ProjectileDef>
+    <id>pj_missle_ballistic</id>
+    <name>Ballistic missile</name>
+    <description>Trusted and effective. Nothing personal.</description>
+    <texture>pj/bdong</texture>
+    <damageType>Explosive</damageType>
+    <ignoreTerrain>true</ignoreTerrain>
+  </ProjectileDef>
+  <ProjectileDef>
+    <id>pj_plasm</id>
+    <name>Plasm clot</name>
+    <description>Very effective against armor. Extra hot.</description>
+    <texture>pj/plasm</texture>
+    <damageType>Plasma</damageType>
+    <ignoreTerrain>false</ignoreTerrain>
+  </ProjectileDef>
+  <ProjectileDef>
+    <id>pj_bomb</id>
+    <name>Bomb</name>
+    <description>Dangerous and optimized for warfare portable implosion.</description>
+    <texture>pj/boom</texture>
+    <damageType>Explosive</damageType>
+    <ignoreTerrain>false</ignoreTerrain>
+  </ProjectileDef>
+</Defs>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Defs>
+  <NativeBuildingDef>
+    <id>nb_abandon1</id>
+    <name>Abandoned Building</name>
+    <description>Long abandoned and now useless building on the verge of collapse.</description>
+    <icon>icons/nb/abandon1</icon>
+    <texture>nb/abandon1</texture>
+    <health>50</health>
+    <armor>1</armor>
+    <armorType>Light</armorType>
+    <storage metal="5000" />
+  </NativeBuildingDef>
+</Defs>

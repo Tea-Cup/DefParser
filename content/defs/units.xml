@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Defs>
+  <UnitDef>
+    <id>un_light1</id>
+    <name>Light Infantry</name>
+    <description>Cheap and quick to make drones of a passable ability.</description>
+    <texture>un/light1</texture>
+    <health>3</health>
+    <armor>2</armor>
+    <armorType>Light</armorType>
+    <speed>3</speed>
+    <range>5</range>
+    <rate>1</rate>
+    <projectile>pj_bullet</projectile>
+    <unitKind>Ground</unitKind>
+    <targetKind>Ground</targetKind>
+  </UnitDef>
+  <UnitDef>
+    <id>un_medium1</id>
+    <name>Medium Mech</name>
+    <description>Balance of price and firepower.</description>
+    <texture>un/medium1</texture>
+    <health>15</health>
+    <armor>4</armor>
+    <armorType>Medium</armorType>
+    <speed>1</speed>
+    <range>7</range>
+    <rate>1</rate>
+    <projectile>pj_bullet</projectile>
+    <unitKind>Ground</unitKind>
+    <targetKind>Ground, Building</targetKind>
+  </UnitDef>
+</Defs>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Defs>
+  <TileDef>
+    <id>tl_concrete</id>
+    <name>Concrete</name>
+    <description>A solid mixture of gravel, cement and water.</description>
+    <texture>tl/concrete</texture>
+    <health>5</health>
+  </TileDef>
+</Defs>

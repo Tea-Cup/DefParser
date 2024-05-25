@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Defs>
+  <TowerDef extends="DefaultStructure">
+    <id>tw_energy1</id>
+    <name>Energy Tower I</name>
+    <description>First tier energy tower.</description>
+    <texture>tw/energy1</texture>
+    <maintenance energy="3" />
+    <range>15</range>
+    <rate>1</rate>
+    <projectile>pj_red_laser</projectile>
+  </TowerDef>
+  <TowerDef extends="DefaultStructure">
+    <id>tw_auto_cannon</id>
+    <name>Auto-Cannon Tower I</name>
+    <description>First tier cannon tower.</description>
+    <texture>tw/auto_cannon1</texture>
+    <maintenance
+        energy="1"
+        metal="1" />
+    <range>10</range>
+    <rate>4</rate>
+    <projectile>pj_bullet</projectile>
+  </TowerDef>
+</Defs>

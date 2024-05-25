@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Defs>
+  <FactoryDef extends="DefaultStructure">
+    <id>fc_light1</id>
+    <name>Light Infantry Factory</name>
+    <description>This factory spawns Light Infantry units.</description>
+    <icon>icons/fc/light1</icon>
+    <texture>fc/light1</texture>
+    <maintenance
+        energy="5"
+        metal="10" />
+  </FactoryDef>
+</Defs>

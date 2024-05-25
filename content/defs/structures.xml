@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Defs>
+  <StructureDef abstract="true">
+    <id>DefaultStructure</id>
+    <health>100</health>
+    <armor>5</armor>
+    <armorType>Medium</armorType>
+    <foundation>tl_concrete</foundation>
+  </StructureDef>
+</Defs>
