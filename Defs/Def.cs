@@ -5,14 +5,20 @@ using System.Text;
 
 namespace DefParser.Defs {
 	public abstract class Def {
+		/// <summary>If <see langword="true"/>, <see cref="ToString"/> will produce multiline output for better readability.</summary>
 		public static bool MultilineToString { get; set; } = false;
+		/// <summary>If <see langword="true"/>, this def will go to <see cref="AbstractDefDatabase"/> instead of <see cref="DefDatabase"/>.</summary>
 		[Ignore] public bool Abstract { get; init; } = false;
+		/// <summary>String that uniquely identifies this def. All references uses this identifier.</summary>
 		[Ignore] public string ID { get; init; } = "<no id>";
+
 		public string Name { get; init; } = "";
 		public string Description { get; init; } = "";
 		public Image? Icon { get; init; }
 		public string[] Tags { get; init; } = Array.Empty<string>();
 
+		/// <summary>Method that is called after def is finalized to validate parsed data.</summary>
+		/// <returns>Error string or <see langword="null"/> if no errors found.</returns>
 		public virtual string? Validate() { return null; }
 
 		public override string ToString() {
@@ -25,6 +31,16 @@ namespace DefParser.Defs {
 			);
 		}
 
+		/// <summary>
+		/// <para>Helper method to use in <see cref="ToString"/>.</para>
+		/// <para>
+		/// <see langword="null"/>, <see cref="Def"/>, <see cref="Image"/>, <see cref="Type"/> and arrays get special treatment.
+		/// Other types are stringified with their own ToString method.
+		/// </para>
+		/// </summary>
+		/// <param name="baseString">String returned by the <see langword="base"/> ToString method.</param>
+		/// <param name="values">Array of tuples containing prop name and it's value.</param>
+		/// <returns>String representing this def and it's data in accordance with <see cref="MultilineToString"/>.</returns>
 		protected static string BuildToString(string baseString, params (string name, object? value)[] values) {
 			StringBuilder sb = new();
 			sb.Append(baseString);

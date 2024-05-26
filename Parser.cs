@@ -10,6 +10,7 @@ using System.Xml;
 using DefParser.Defs;
 
 namespace DefParser {
+	// TODO: Comments
 	public class Parser {
 		private static Dictionary<string, Type> DefTypes { get; set; } = new();
 		private static Dictionary<string, Dictionary<string, PropertyInfo>> PropsCache { get; set; } = new();
