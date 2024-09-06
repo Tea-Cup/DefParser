@@ -1,3 +1,6 @@
 .vs
 bin
 obj
+publish
+*.csproj.user
+*.pubxml.user
