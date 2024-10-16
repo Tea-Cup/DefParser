@@ -1,10 +1,11 @@
 ﻿namespace DefParser {
 	[System.Flags]
 	public enum TargetKind {
-		Ground = 0b00001,
-		Air = 0b00010,
-		Underground = 0b00100,
-		Building = 0b01000,
-		Tile = 0b10000
+		Ground = 0b000001,
+		Air = 0b000010,
+		Underground = 0b000100,
+		Building = 0b001000,
+		Tile = 0b010000,
+		Operator = 0b100000,
 	}
 }

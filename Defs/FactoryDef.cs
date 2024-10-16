@@ -1,7 +1,7 @@
 ﻿namespace DefParser.Defs {
 	public class FactoryDef : StructureDef {
 		public int Range { get; init; } = 0;
-		public int Rate { get; init; } = 0;
+		public int SpawnRate { get; init; } = 0;
 		public UnitDef Unit { get; init; } = null!;
 
 		public override string? Validate() {
@@ -13,7 +13,7 @@
 			return BuildToString(
 				base.ToString(),
 				("range", Range),
-				("rate", Rate),
+				("spawnrate", SpawnRate),
 				("unit", Unit)
 			);
 		}

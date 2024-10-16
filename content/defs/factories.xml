@@ -9,5 +9,6 @@
     <maintenance
         energy="5"
         metal="10" />
+    <spawnrate>15</spawnrate>
   </FactoryDef>
 </Defs>
