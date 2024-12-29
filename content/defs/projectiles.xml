@@ -13,7 +13,7 @@
     <name>762 bullet</name>
     <description>Standardized bullet used by medium caliber rifles.</description>
     <texture>pj/pew</texture>
-    <damageType>Bullet</damageType>
+    <damageType>Kinetic</damageType>
     <ignoreTerrain>false</ignoreTerrain>
   </ProjectileDef>
   <ProjectileDef>

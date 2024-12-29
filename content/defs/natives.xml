@@ -11,4 +11,11 @@
     <armorType>Light</armorType>
     <storage metal="5000" />
   </NativeBuildingDef>
+  <UndergroundFacilityDef>
+    <id>nb_underground_facility</id>
+	  <name>Underground facility</name>
+	  <description>You discover hidden, relatively small hatch, about to fit a medium craft, which leads to the unknown depths of pitch darkness, seemingly unpowered for decades, to say the least. It would take time to uncover what it hides.</description>
+    <icon>icons/nb/facility</icon>
+    <texture>nb/facility</texture>
+  </UndergroundFacilityDef>
 </Defs>
